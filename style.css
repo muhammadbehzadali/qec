@@ -9,6 +9,11 @@ body{
 .nav-link:hover{
     color: white;
 }
+article a:hover{
+  border: 2px solid white;
+  color: black;
+  font-weight: bold;
+  }
 p {
   text-align: justify;
 }
