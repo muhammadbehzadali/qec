@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+body{
+    background: linear-gradient(
+          135deg,
+          rgb(255, 255, 255),
+          rgb(51, 122, 183),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71), rgb(51, 122, 183));
+          color: white;
+}
+
+
+        *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+        p {
+  margin: 0 0 13px 0;
+}
+
+a {
+  color: #fff;
+}
+
+.center { text-align: center; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar p-3" style="background-color: #002147">
+        <div class="container-fluid d-flex justify-content-center">
+          <span class="navbar-brand mb-0 h1 f-4" style="color: white"
+            >QEC AIR UNIVERSITY</span
+          >
+        </div>
+      </nav>
+      <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="
+        background: linear-gradient(
+          135deg,
+          rgb(255, 255, 255),
+          rgb(51, 122, 183),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(255, 255, 255)
+        );
+      "
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center sticky-top"
+          id="navbarNavDropdown"
+        >
+          <a class="navbar-brand" href="https://au.edu.pk/">
+            <img src="./images/aulogo.png" alt="" width="70" height="60" />
+          </a>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutus.html">Overview</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Activites
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="nationall.html">National</a></li>
+                <li><a class="dropdown-item" href="#">International</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Rankings
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="qsranking.html">QS Ranking</a></li>
+                <li><a class="dropdown-item" href="uigreen.html">UI Green Metric</a></li>
+                <li>
+                  <a class="dropdown-item" href="wurank.html">THE World University</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="impact.html">THE IMPACT RANKING</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hec.html">HEC </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="perfomance.html">AU PERFOMANCE</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                YPR
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ypr.html">IPE</a></li>
+                <li><a class="dropdown-item" href="accreditation.html">Accreditation</a></li>
+        
+                <li>
+                  <a class="dropdown-item" href="sar.html">Self Assesment Report</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="msphd.html">MS/PHD Program Review</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Downloads
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="manual.html">Manuals/Guidelines</a></li>
+                <li><a class="dropdown-item" href="manuals/Air_University_Portfolio_Report_2019.pdf" target="_blank">UPR</a></li>
+                <li>
+                  <a class="dropdown-item" href="Survey.html">Survey Forms</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="newsletter.html">NewsLetter</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+      
+  <div class="container mt-5" style="width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;">
+    <h1 class="center mb-4">ABOUT US</h1>
+    <article class="episode">
+      <!-- <div class="episode__number">00</div> -->
+      <div class="episode__content">
+        <div class="title">INTRODUCTION</div>
+        <div class="story">
+            <p>
+                Air University is a dynamics community of students, teachers and staff committed to perform their duties at the highest standards. National and International concerns about quality of education in higher education institutions, has demanded change from traditional modes of teaching research, learning and management and to adopt a formal, transparent and credible systems of quality assurance with external verification of outcomes and processes, keeping in view these requirements ,Quality Enhancement Cell has been established at Air University as per directive of HEC. Quality Enhancement Cell is responsible to promote higher standards of education and research in the University and develop quality assurance processes and evaluation methods.
+            </p>
+        </div>
+      </div>
+    </article>
+    
+    <article class="episode">
+      <!-- <div class="episode__number">00</div> -->
+      <div class="episode__content">
+        <div class="title">QUALITY ASSURANCE POLICY STATEMENT POLICY STATEMENT</div>
+        <div class="story">
+          <p> Air University Quality Assurance Policy Statement Air University will serve the community and meet the challenging needs of national and international market by providing quality higher education through effective and efficient quality assurance system underpinned by quality teaching, learning and research. University will also inculcate ethical values in students through its programs to become better citizens.</p>
+            
+        </div>
+      </div>
+    </article>
+    <article class="episode">
+      <!-- <div class="episode__number">00</div> -->
+      <div class="episode__content">
+        <div class="title"> OBJECTIVES</div>
+        <div class="story">
+          <p> Effective Institutional quality assurance processes assess quality against their mission and related objectives. The university in this QA System has adopted quality as "Fitness for Purpose" a concept that stresses the need to meet or conform to generally accepted standards defined by Higher Education Commission.</p>
+            
+        </div>
+      </div>
+    </article>
+   
+   
+    
+    <article class="episode">
+      <!-- <div class="episode__number">02</div> -->
+      <div class="episode__content">
+        <div class="title"> SALIENT FEATURES</div>
+        <div class="story">
+            <p>
+                Effective Institutional quality assurance processes assess quality against their mission and related objectives. The university in this QA System has adopted quality as "Fitness for Purpose" a concept that stresses the need to meet or conform to generally accepted standards defined by Higher Education Commission. The objectives of Quality Assurance policy includes following:
+                <ol>
+                    <li>To provide guidance in development and implementation of internal and external quality assurance procedures and practices.</li>
+                    <li>
+                        To ensure that quality of academic programs at Air University meet standards expected by all stake holders.
+                    </li>
+                    <li>To ensure that graduates have attained skills and knowledge through academic programs that is valued by stake holders.</li>
+                    <li> To assist in maintaining and developing quality of academic programs through enhanced support processes.</li>
+                    <li>    
+                        To facilitate development of a culture of continuous quality improvement to achieve academic excellence and ethical values.</li>
+                </ol>
+    
+               </p>
+        </div>
+      </div>
+    </article>
+    <h1 class="center mb-4">PROFILES</h1>
+    <div class="container">
+        <div class="container  mt-5 ">
+        <div class="container-fluid " bis_skin_checked="1">
+            <div class="row " bis_skin_checked="1" style="text-align: left;">
+                <div class="col-md-offset-1 col-md-10 m-auto " bis_skin_checked="1">
+                    <div class="panel " bis_skin_checked="1">
+                        <div class="panel-heading" bis_skin_checked="1">
+                         
+                        <div class="panel-body table-responsive " bis_skin_checked="1">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Full Name</th>
+                                        <th>DESIGNATION</th>
+                                        <th>EMAIL</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Air Commodore (R) Ahmed Hassan </td>
+                                        <td>Director QA</td>
+                                        <td>dir.qec@mail.au.edu.pk</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Lt.Col (R)Amir Toor </td>
+                                        <td>Deputy Director QA </td>
+                                        <td>Amir.toor@mail.au.edu.pk </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Ms Mehreen Ishtiaq </td>
+                                        <td>Assistant Director QA (Ranking)</td>
+                                        <td>mehreen.ishtiaq@mail.au.edu.pk</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Ms Ifrah Syed </td>
+                                        <td>Assistant Director QA</td>
+                                        <td>ifrah.syed@mail.au.edu.pk</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Mr Muhammad Sheharyar  </td>
+                                        <td>Data Analyst QA</td>
+                                        <td>muhammad.sheharyar@mail.au.edu.pk</td>
+                                      
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Mr Naeem Ahmed </td>
+                                        <td>Personal Assistant</td>
+                                        <td>naeem.ahmed@mail.au.edu.pk</td>
+                                      
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Mr Bilal </td>
+                                        <td>Office Boy</td>
+                                        <td>-</td>
+                                      
+                                        
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+        </div> 
+    
+    </div>
+   
+</div>
+<hr>
+<div class="container-fluid" style="background-color: #002147" >
+  <footer>
+    <div class="footer-top" style="padding:0 0 60px; font-family: rubik; font-weight: lighter;">
+        <br>
+        <div class="container-fluid" style="color: white;">
+            <div class="row">
+                <div class="col-6 col-lg-2 col-md-2 col-sm-2">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <ul>
+                 <!-- <li><a href="https://portals.au.edu.pk/admissions/">Admission Spring 2022</a></li>                                    
+                  <li><a href="https://numspak.edu.pk/news">MBBS Admission 2021</a></li>-->
+                     <li><a href="https://portals.au.edu.pk/jobs/">Job Opportunities</a></li>
+                            <li><a href="https://mail.au.edu.pk/">Staff Email</a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin/webreauth?continue=https%3A%2F%2Fwww.google.com%2Fa%2Fcpanel%2Fstudents.au.edu.pk%2FDashboard&amp;service=CPanel&amp;sacu=1&amp;hd=students.au.edu.pk&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin#identifier" id="A43">Student Email</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AUInfo/Advertisment.aspx" id="A44">Ads and Tender</a></li>
+                            <li><a href="https://au.edu.pk/Pages/Library/about_Library.aspx" id="A45">Library</a></li>
+    <li><a href="https://au.edu.pk/AU_Documents/Air_University_Social_Media_Policy_&_Guidliess.pdf" id="Ausmp">AU Social Media Policy &amp; Guidelines</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-2 col-sm-2">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <ul>
+                            <li><a href="https://portals.au.edu.pk/students/" id="A46">Student Portal</a></li>
+                            <li><a href="https://au.edu.pk/Pages/About/au_lms.aspx" id="A51">AULMS</a></li>
+                            <li><a href="https://au.edu.pk/fmc/">Fazaia Medical College</a></li>
+                            <li><a href="https://au.edu.pk/pages/Kamra_Campus/#">Aerospace &amp; Aviation Campus Kamra</a></li>
+                            <li><a href="http://aumc.edu.pk/" id="A47">Air University Multan Campus</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-md-4 col-sm-4">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Consitutent Units</h5>
+                        <ul>
+                            <li><a href="https://fazaiamedical.edu.pk/" id="A48">Fazaia Medical College, Islamabad</a></li>
+                            <li><a href="https://frpmc.edu.pk/">Fazaia Ruth Pfau Medical College, Karachi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/cft_risalpur_college.aspx" id="A49">College of Flying Training, Risalpur</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/casmcontent.aspx" id="A50">College of Aviation Safety Management, Karachi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-md-4 col-sm-4">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Affiliated Institutes</h5>
+                        <ul>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A54">Bilquis College of Education for Women, Chaklala, Rawalpindi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A55">Fazaia College of Education for Women, Lahore</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A56">Aero Medical Institute, PAF Base, Masroor, Karachi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A57">College of Education, Peshawar</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A58">College of Education for Women, Peshawar</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget">
+                        <h5 class="footer-title">AU UAN</h5>
+                        <p><kbd><span class="fa fa-phone" aria-hidden="true"></span> 051-111-247-864</kbd></p>
+                        <h5 class="footer-title">Address</h5>
+                        <p class="text-capitalize m-b20">Main Campus PAF Complex E-9 Islamabad.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget widget_gallery gallery-grid-4">
+                        <h5 class="footer-title">Location Map</h5>
+                        <iframe src="https://www.google.com/maps?q=Air University,Islamabad&amp;output=embed" frameborder="0" style="border: 0 ; margin-bottom: 10px;" width="100%" height="300" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+</footer>
+ </div>
+  
+ <div style="background-color: #002147; border-top: 3px double #fff">
+  <div class="container">
+      <br>
+      <center style="color: #fff">
+                      Copyright © Air University.
+          <script type="text/javascript">document.write(new Date().getFullYear())</script>
+
+                      <br>
+                      All right reserved. 
+                  </center>
+  </div>
+</div>
+
+<script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+body{
+    background: linear-gradient(
+          135deg,
+          rgb(255, 255, 255),
+          rgb(51, 122, 183),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71), rgb(51, 122, 183));
+          color: white;
+}
+
+
+        *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+        p {
+  margin: 0 0 13px 0;
+}
+
+a {
+  color: #fff;
+}
+
+.center { text-align: center; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar p-3" style="background-color: #002147">
+        <div class="container-fluid d-flex justify-content-center">
+          <span class="navbar-brand mb-0 h1 f-4" style="color: white"
+            >QEC AIR UNIVERSITY</span
+          >
+        </div>
+      </nav>
+      <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="
+        background: linear-gradient(
+          135deg,
+          rgb(255, 255, 255),
+          rgb(51, 122, 183),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(255, 255, 255)
+        );
+      "
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center sticky-top"
+          id="navbarNavDropdown"
+        >
+          <a class="navbar-brand" href="https://au.edu.pk/">
+            <img src="./images/aulogo.png" alt="" width="70" height="60" />
+          </a>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutus.html">Overview</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Activites
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="nationall.html">National</a></li>
+                <li><a class="dropdown-item" href="#">International</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Rankings
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="qsranking.html">QS Ranking</a></li>
+                <li><a class="dropdown-item" href="uigreen.html">UI Green Metric</a></li>
+                <li>
+                  <a class="dropdown-item" href="wurank.html">THE World University</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="impact.html">THE IMPACT RANKING</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hec.html">HEC </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="perfomance.html">AU PERFOMANCE</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                YPR
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ypr.html">IPE</a></li>
+                <li><a class="dropdown-item" href="accreditation.html">Accreditation</a></li>
+        
+                <li>
+                  <a class="dropdown-item" href="sar.html">Self Assesment Report</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="msphd.html">MS/PHD Program Review</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Downloads
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="manual.html">Manuals/Guidelines</a></li>
+                <li><a class="dropdown-item" href="manuals/Air_University_Portfolio_Report_2019.pdf" target="_blank">UPR</a></li>
+                <li>
+                  <a class="dropdown-item" href="Survey.html">Survey Forms</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="newsletter.html">NewsLetter</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img
+    src="icons/national.jpeg"
+    alt=""
+    class="img-fluid"
+    style="width: 100%; height: 55vh"
+  />
+      
+  <div class="container mt-5" style="width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;">
+    <h1 class="center mb-4">HEC RANKING</h1>
+    <article class="episode">
+      <!-- <div class="episode__number">00</div> -->
+      <div class="episode__content">
+        <div class="title">INTRODUCTION</div>
+        <div class="story">
+            <ul>
+        <li><p> Ranking provide complete picture to stakeholders like researchers, students, business community, parents, industry etc. to compare institutions according to different parameters of their need, such as Quality & Research etc. For the development and progress of any country, quality of higher education is the key factor. HEIs are considered to be the originators of change and progress of the nations. </p> </li>
+        <li><p>In order to strengthen the quality of higher education in Pakistan, Higher Education Commission (HEC) has taken various initiatives to bring the HEIs of Pakistan at par with international standards. Ranking is one of the measures to scale the success of efforts of the HEIs to achieve the international competitiveness in education, research and innovation. </p></li>
+        <li><p>Rankings are a debatable subject all over the world, In spite of the difficulties associated in ranking. This is the 5th ranking of Pakistani Universities being announced by Higher Education Commission of Pakistan. Last four rankings for the year were announced in 2006, 2012, 2013 and 2015.</p></li>
+    </ul>
+        </div>
+      </div>
+    </article>
+    
+    
+   
+   
+    
+    <article class="episode">
+      <!-- <div class="episode__number">02</div> -->
+      <div class="episode__content">
+        <div class="title">ELIGIBILITY CRITERIA</div>
+        <div class="story">
+        </div>
+      </div>
+    </article>
+    <div class="container mb-5 mt-0">
+        <div class="container  mt-5 ">
+        <div class="container-fluid " bis_skin_checked="1">
+            <div class="row " bis_skin_checked="1" style="text-align: left;">
+                <div class="col-md-offset-1 col-md-10 m-auto " bis_skin_checked="1">
+                    <div class="panel " bis_skin_checked="1">
+                        <div class="panel-heading" bis_skin_checked="1">
+                         
+                        <div class="panel-body table-responsive " bis_skin_checked="1">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Sr</th>
+                                        <th>CRITERIA</th>
+                                        <th>INDICATORS</th>
+                                        <th>SCORES</th>
+                                    </tr>
+                                </thead>
+                               <tbody>
+                                <tr>
+                                    <td valign="top" ><p><strong>1</strong></p></td>
+                                    <td valign="top" > </td>
+                                    <td valign="top" ><p>Adoption/Implementation of HEC eligibility criteria for appointments of faculty members</p></td>
+                                    <td>15</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        
+                                        <td></td>
+                                        <td></td>
+                                    <td valign="top" ><p>Adoption/Implementation of HEC criteria of M.Phil/MS Programs</p></td>
+                                    <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    <td valign="top" ><p>Adoption/Implementation of HEC criteria of PhD programs</p></td>
+                                    <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    <td valign="top" ><p>Adoption/Implementation of HEC plagiarism policy compliance</p></td> <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td></td> <td></td>
+                                    <td valign="top" ><p>Rating of Quality Enhancement Cells (QECs) of the HEIs</p></td>
+                                    <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    <td valign="top" ><p>Number of International awards won by students</p></td>
+                                    <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    <td valign="top" ><p>Affiliation of programs with HEC recognized accreditation councils/bodies (Business, Agriculture, Computing, PMDC, Engineering-PEC, etc)</p></td>
+                                    <td></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    <td valign="top" ><p>Ranking of HEIs in latest international rankings</p></td>
+                                    <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td  valign="top" ><p><strong>2</strong></p></td>
+                                        <td  valign="top" ><p>Teaching Quality</p></td>
+                                        <td valign="top" ><p>Ratio of full time faculty to total faculty</p></td>
+                                        <td>30</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        <td valign="top" ><p>Ratio of Full time PhD faculty to full time total faculty</p></td><td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        <td valign="top" ><p>Full time teacher student ratio</p></td>
+                                        <td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        <td valign="top" ><p>Selectivity: enrollment ratio (fresh intake) to total applicants</p></td>
+                                        <td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td><td></td>
+                                        <td valign="top" ><p>Number of trainings of full time faculty members (3 years data)</p></td>
+                                        <td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td><td></td>
+                                        <td valign="top" ><p>Ratio of their faculty having terminal degrees from other institutions over total full time faculty members</p></td>
+                                        <td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td><td></td>
+                                        <td valign="top" ><p>Number of national awards won by full time faculty members per total full time faculty</p></td>
+                                        <td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        <td valign="top" ><p>Number of international awards won by full time faculty members per total full time faculty</p></td>
+                                        <td></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        <td valign="top" ><p>Ratio of fresh PhD faculty over total fresh recruitment of faculty (03 years data)</p></td>
+                                        <td></td>
+                                        </tr>
+                            
+                                            
+                                            <tr>
+                                                <td valign="top" ><p><strong>3</strong></p></td>
+                                                <td valign="top" ><p>Research </p></td>
+                                            <td valign="top" ><p>Number of registered Patents/Varieties/Technologies/Breeds and Creative Work at national level per full time faculty 1 (C)</p></td>
+                                            <td valign="top" > 41</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Number of registered Patents/Varieties/Technologies/Breeds and Creative Work at international level per full time faculty</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Commercialization of registered Patents/Varieties/Technologies/Breeds and Creative Work</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Number of university industrial linkages through (ORICs)</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Ratio of active PhD students to total active enrolled students</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Amount of external research grants won/obtained by HEIs (grant&gt;=0.6 million) (approved during 2013-14 year) 4 (C)7 Number of travel grants won for presentat</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Total number of papers published in impact factor journals (ISI web of sciences) and HEC recognized journals (X &amp; Y category journals) by the HEIs (2013)</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Publications in ISI impact factor Journals[2014] per full time faculty</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Citations per paper for total number of ISI impact factor papers (05 years)</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>University H Index</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Number of W category Journals Published by the HEIs (Science and Social Science Journals)</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Number of X category Journals Published by the HEIs (Science and Social Science Journals)</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Internet bandwidth utilization</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Digital Library utilization</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Number of international conferences/symposia/workshop/seminar organized (at least 5 International participants traveling from abroad specifically for the conference) by the HEI.</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Number of national professional conferences/symposia/workshop/seminar organized by the HEI.</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                            <td valign="top" > </td>
+                                            <td valign="top" > </td>
+                                            <td valign="top" ><p>Total PhD output during year 2014</p></td>
+                                            <td valign="top" > </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" ><p><strong>4</strong></p></td>
+                                                <td valign="top" ><p>Finance &amp; Facilities</p></td>
+                                                <td valign="top" ><p>Ratio non-salary expenditure to total budget</p></td>
+                                                <td valign="top" ><p>10</p></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Amount generated through own resources</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Amount spent on research/library as %age of the total budget</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Computers per student</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Computers per full time faculty</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Number of books in library per student excluding e-library/digital library books</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Number of Students receiving external scholarships per total number of students?</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Number of community outreach programs, civil engagements and community services by the HEIs</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" ><p><strong>5</strong></p></td>
+                                                <td valign="top" ><p>Social Integration / Community Development</p></td>
+                                                <td valign="top" ><p>Number of international collaboration/exchange program (outbound/inbound student &amp; faculty (at least 15 days for faculty &amp; one month for students))</p></td>
+                                                <td valign="top" ><p>4</p></td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Number of enrolled foreign students per total number of students</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td valign="top" > </td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>Number of foreign faculty per total faculty</p></td>
+                                                <td valign="top" > </td>
+                                                </tr>
+                                                
+                                                
+                                                
+                                                <tr>
+                                                <td valign="top" ><p><strong>6</strong></p></td>
+                                                <td valign="top" ><p>Total Marks</p></td>
+                                                <td valign="top" > </td>
+                                                <td valign="top" ><p>100</p></td>
+                                                </tr>
+                                                
+                                        
+                               </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+        </div> 
+    
+    </div>
+   
+   
+    <article class="episode">
+        <!-- <div class="episode__number">00</div> -->
+        <div class="episode__content">
+          <div class="title">CONTACT DETAILS</div>
+          <div class="story">
+             <ul>
+                <li>To register, track or get remarks of your complaint, please visit the following URL: <a href="•	http://onlinehelp.hec.gov.pk/">http://onlinehelp.hec.gov.pk/</a>
+                
+                </li>
+                
+                
+                
+             </ul>
+             <p>For queries please contact HEC Call Centre </p>
+             <p>UAN: 111-119-432 </p>
+             <p>0334 - 111-9432</p>
+          </div>
+        </div>
+      </article>
+</div>
+<hr>
+<div class="container-fluid" style="background-color: #002147" >
+  <footer>
+    <div class="footer-top" style="padding:0 0 60px; font-family: rubik; font-weight: lighter;">
+        <br>
+        <div class="container-fluid" style="color: white;">
+            <div class="row">
+                <div class="col-6 col-lg-2 col-md-2 col-sm-2">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <ul>
+                 <!-- <li><a href="https://portals.au.edu.pk/admissions/">Admission Spring 2022</a></li>                                    
+                  <li><a href="https://numspak.edu.pk/news">MBBS Admission 2021</a></li>-->
+                     <li><a href="https://portals.au.edu.pk/jobs/">Job Opportunities</a></li>
+                            <li><a href="https://mail.au.edu.pk/">Staff Email</a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin/webreauth?continue=https%3A%2F%2Fwww.google.com%2Fa%2Fcpanel%2Fstudents.au.edu.pk%2FDashboard&amp;service=CPanel&amp;sacu=1&amp;hd=students.au.edu.pk&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin#identifier" id="A43">Student Email</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AUInfo/Advertisment.aspx" id="A44">Ads and Tender</a></li>
+                            <li><a href="https://au.edu.pk/Pages/Library/about_Library.aspx" id="A45">Library</a></li>
+    <li><a href="https://au.edu.pk/AU_Documents/Air_University_Social_Media_Policy_&_Guidliess.pdf" id="Ausmp">AU Social Media Policy &amp; Guidelines</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-2 col-sm-2">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <ul>
+                            <li><a href="https://portals.au.edu.pk/students/" id="A46">Student Portal</a></li>
+                            <li><a href="https://au.edu.pk/Pages/About/au_lms.aspx" id="A51">AULMS</a></li>
+                            <li><a href="https://au.edu.pk/fmc/">Fazaia Medical College</a></li>
+                            <li><a href="https://au.edu.pk/pages/Kamra_Campus/#">Aerospace &amp; Aviation Campus Kamra</a></li>
+                            <li><a href="http://aumc.edu.pk/" id="A47">Air University Multan Campus</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-md-4 col-sm-4">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Consitutent Units</h5>
+                        <ul>
+                            <li><a href="https://fazaiamedical.edu.pk/" id="A48">Fazaia Medical College, Islamabad</a></li>
+                            <li><a href="https://frpmc.edu.pk/">Fazaia Ruth Pfau Medical College, Karachi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/cft_risalpur_college.aspx" id="A49">College of Flying Training, Risalpur</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/casmcontent.aspx" id="A50">College of Aviation Safety Management, Karachi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-md-4 col-sm-4">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Affiliated Institutes</h5>
+                        <ul>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A54">Bilquis College of Education for Women, Chaklala, Rawalpindi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A55">Fazaia College of Education for Women, Lahore</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A56">Aero Medical Institute, PAF Base, Masroor, Karachi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A57">College of Education, Peshawar</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A58">College of Education for Women, Peshawar</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget">
+                        <h5 class="footer-title">AU UAN</h5>
+                        <p><kbd><span class="fa fa-phone" aria-hidden="true"></span> 051-111-247-864</kbd></p>
+                        <h5 class="footer-title">Address</h5>
+                        <p class="text-capitalize m-b20">Main Campus PAF Complex E-9 Islamabad.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget widget_gallery gallery-grid-4">
+                        <h5 class="footer-title">Location Map</h5>
+                        <iframe src="https://www.google.com/maps?q=Air University,Islamabad&amp;output=embed" frameborder="0" style="border: 0 ; margin-bottom: 10px;" width="100%" height="300" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+</footer>
+ </div>
+  
+ <div style="background-color: #002147; border-top: 3px double #fff">
+  <div class="container">
+      <br>
+      <center style="color: #fff">
+                      Copyright © Air University.
+          <script type="text/javascript">document.write(new Date().getFullYear())</script>
+
+                      <br>
+                      All right reserved. 
+                  </center>
+  </div>
+</div>
+<script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>

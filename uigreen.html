@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+body{
+    background: linear-gradient(
+          135deg,
+          rgb(255, 255, 255),
+          rgb(51, 122, 183),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71), rgb(51, 122, 183));
+          color: white;
+}
+
+
+        *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+        p {
+  margin: 0 0 13px 0;
+}
+
+a {
+  color: #fff;
+}
+
+.center { text-align: center; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar p-3" style="background-color: #002147">
+        <div class="container-fluid d-flex justify-content-center">
+          <span class="navbar-brand mb-0 h1 f-4" style="color: white"
+            >QEC AIR UNIVERSITY</span
+          >
+        </div>
+      </nav>
+      <nav
+      class="navbar navbar-expand-lg sticky-top"
+      style="
+        background: linear-gradient(
+          135deg,
+          rgb(255, 255, 255),
+          rgb(51, 122, 183),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(0, 33, 71),
+          rgb(255, 255, 255)
+        );
+      "
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center sticky-top"
+          id="navbarNavDropdown"
+        >
+          <a class="navbar-brand" href="https://au.edu.pk/">
+            <img src="./images/aulogo.png" alt="" width="70" height="60" />
+          </a>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutus.html">Overview</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Activites
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="nationall.html">National</a></li>
+                <li><a class="dropdown-item" href="#">International</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Rankings
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="qsranking.html">QS Ranking</a></li>
+                <li><a class="dropdown-item" href="uigreen.html">UI Green Metric</a></li>
+                <li>
+                  <a class="dropdown-item" href="wurank.html">THE World University</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="impact.html">THE IMPACT RANKING</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hec.html">HEC </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="perfomance.html">AU PERFOMANCE</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                YPR
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ypr.html">IPE</a></li>
+                <li><a class="dropdown-item" href="accreditation.html">Accreditation</a></li>
+        
+                <li>
+                  <a class="dropdown-item" href="sar.html">Self Assesment Report</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="msphd.html">MS/PHD Program Review</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Downloads
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="manual.html">Manuals/Guidelines</a></li>
+                <li><a class="dropdown-item" href="manuals/Air_University_Portfolio_Report_2019.pdf" target="_blank">UPR</a></li>
+                <li>
+                  <a class="dropdown-item" href="Survey.html">Survey Forms</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="newsletter.html">NewsLetter</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img
+    src="icons/UI-Green-Metric.png"
+    alt=""
+    class="img-fluid"
+    style="width: 100%; height: 55vh"
+  />
+      
+  <div class="container mt-5" style="width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;">
+    <h1 class="center mb-4">UI GREEN METRIC WORLD UNIVERSITY RANKINGS</h1>
+    <article class="episode">
+      <!-- <div class="episode__number">00</div> -->
+      <div class="episode__content">
+        <div class="title">INTRODUCTION</div>
+        <div class="story">
+            <P>Universities Indonesia (UI) initiated world university rankings in 2010, later known as UI Green Metric World University Rankings, to measure campus sustainability efforts. It was intended to create an online survey to portray sustainability policies programs for universities around the world
+                The rankings aim to: 
+                </P>
+         <ul>
+            <li><p>Contribute to academic discourses on sustainability in education and the greening of campus </p></li>
+            <li><p>Promote university-led social change with regard to sustainability goals</p></li>
+            <li><p>Be a tool for self-assessment on campus sustainability for higher education institutions (HEIs) around the globe</p></li>
+            <li><p>QS then chose to continue using the pre-existing methodology, while THE adopted a new methodology to create their rankings.</p></li>
+
+         </ul>
+         <P>All universities in the world with a strong commitment to sustainability issues can participate in the annual UI Green Metric World University Rankings.</P>
+        </div>
+      </div>
+    </article>
+    
+    <article class="episode">
+      <!-- <div class="episode__number">00</div> -->
+      <div class="episode__content">
+        <div class="title">REQUIREMENT</div>
+        <div class="story">
+            <p>To participate in the ranking is simple. The sustainability director or other persons in charge can visit www.greenmetric.ui.ac.id to learn about the ranking and if interested they can e-mail the UI GreenMetric secretariat (greenmetric@ui.ac.id) to get an invitation letter and access to the system. If you have already participated in the rankings, you will be sent an invitation to participate. If you decide not to participate due to particular reasons, it would be appreciated if you inform the secretariat. Of course, you can join the survey again in the future. It is always useful if your university appoints a person in charge of a contact person. You are welcome to contact the secretariat for any inquiries regarding the survey </p>
+            
+            
+        </div>
+      </div>
+    </article>
+  
+   
+    
+    <article class="episode">
+      <!-- <div class="episode__number">02</div> -->
+      <div class="episode__content">
+        <div class="title">ELIGIBILITY CRITERIA</div>
+        <div class="story">
+        </div>
+      </div>
+    </article>
+    <div class="container mb-5 mt-0">
+        <div class="container  mt-5 ">
+        <div class="container-fluid " bis_skin_checked="1">
+            <div class="row " bis_skin_checked="1" style="text-align: left;">
+                <div class="col-md-offset-1 col-md-10 m-auto " bis_skin_checked="1">
+                    <div class="panel " bis_skin_checked="1">
+                        <div class="panel-heading" bis_skin_checked="1">
+                         
+                        <div class="panel-body table-responsive " bis_skin_checked="1"><table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Sr</th>
+                                        <th>CRITERIA</th>
+                                        <th>PERCENTAGE OF TOTAL POINTS (%)</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="fw-bold">1</td>
+                                        <td><p class="fw-bold">Setting and Criteria </p></td>
+                                        <td class="fw-bold">15%</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>The ratio of open space area to total area</td>
+                                        <td>300</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Total area on campus covered in forest vegetation</td>
+                                        <td>200</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Total area on campus covered in planted</td>
+                                        <td>300</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Total area on campus for water absorption besides the forest and planted</td>
+                                        <td>200</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>The total open space area divided by total campus population</td>
+                                        <td>300</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>Percentage of university budget for sustainability efforts within a year</td>
+                                        <td>200</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr ></tr><tr><td></td>
+                                        <td class="fw-bold">1500</td>
+                                        <td class="fw-bold">200</td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><p><strong>2</strong></p></td>
+                                        <td valign="top" ><p><strong>Energy and Climate Change (EC)</strong></p></td>
+                                        <td valign="top" ><p><strong>21%</strong></p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>Energy efficient appliances usage</p></td>
+                                        <td valign="top" ><p>200</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>Smart building implementation</p></td>
+                                        <td valign="top" ><p>300</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>Number of renewable energy sources on campus</p></td>
+                                        <td valign="top" ><p>300</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>Total electricity usage divided by total campus' population (kWh per person)</p></td>
+                                        <td valign="top" ><p>300</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>The ratio of renewable energy production divided by total energy usage per year</p></td>
+                                        <td valign="top" ><p>200</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>Elements of green building implementation as reflected in all construction and renovation policies</p></td>
+                                        <td valign="top" ><p>300</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>Greenhouse gas emission reduction program</p></td>
+                                        <td valign="top" ><p>200</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                                        <td valign="top" ><p>Total carbon footprint divided by total campus' population (metric tons per person)</p></td>
+                                        <td valign="top" ><p>300</p></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td></td>
+                
+                                        <td valign="top" ><p><strong>Total </strong></p></td>
+                                        <td valign="top" ><p><strong>2100</strong></p></td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" ><p><strong>3</strong></p></td>
+                                            <td valign="top" ><p><strong>Waste (WS)</strong></p></td>
+                                            <td valign="top" ><p><strong>18%</strong></p></td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td></td>
+                                            <td valign="top" ><p>Recycling program for university's waste</p></td>
+                                            <td valign="top" ><p>300</p></td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td></td>
+                                            <td valign="top" ><p>Program to reduce the use of paper and plastic on campus</p></td>
+                                            <td valign="top" ><p>300</p></td>
+                                            </tr>
+                                            
+                                            <tr><td></td>
+                                            <td valign="top" ><p>Organic waste treatment</p></td>
+                                            <td valign="top" ><p>300</p></td>
+                                            </tr>
+                                            
+                                            <tr><td></td>
+                                            <td valign="top" ><p>Inorganic waste treatment</p></td>
+                                            <td valign="top" ><p>300</p></td>
+                                            </tr>
+                                            
+                                            <tr><td></td>
+                                            <td valign="top" ><p>Toxic waste treatment</p></td>
+                                            <td valign="top" ><p>300</p></td>
+                                            </tr>
+                                            
+                                            <tr><td></td>
+                                            <td valign="top" ><p>Sewage disposal</p></td>
+                                            <td valign="top" ><p>300</p></td>
+                                            </tr>
+                                            
+                                            <tr><td></td>
+                                            <td valign="top" ><p><strong>Total</strong></p></td>
+                                            <td valign="top" ><p><strong>1800</strong></p></td>
+                                            </tr>
+                                            <td valign="top" ><p><strong>4</strong></p></td>
+<td valign="top" ><p><strong>Water (WR)</strong></p></td>
+<td valign="top" ><p><strong>10%</strong></p></td>
+</tr>
+
+<tr><td></td>
+<td valign="top" ><p>Water conservation program &amp; implementations</p></td>
+<td valign="top" ><p>300</p></td>
+</tr>
+
+<tr><td></td>
+<td valign="top" ><p>Water recycling program implementation</p></td>
+<td valign="top" ><p>300</p></td>
+</tr>
+
+<tr><td></td>
+<td valign="top" ><p>Water efficient appliances usage</p></td>
+<td valign="top" ><p>200</p></td>
+</tr>
+
+<tr><td></td>
+<td valign="top" ><p>Consumption of treated water</p></td>
+<td valign="top" ><p>200</p></td>
+</tr>
+
+<tr><td></td>
+<td valign="top" ><p><strong>Total</strong></p></td>
+<td valign="top" ><p><strong>1000</strong></p></td>
+</tr>
+<tr>
+    <td valign="top" ><p><strong>5</strong></p></td>
+    <td valign="top" ><p><strong>Transportation (TR)</strong></p></td>
+    <td valign="top" ><p><strong>18%</strong></p></td>
+    </tr>
+    
+    <tr><td></td>
+    <td valign="top" ><p>The total number of vehicles (cars and motorcycles) divided by total campus' population</p></td>
+    <td valign="top" ><p>200</p></td>
+    </tr>
+    
+    <tr><td></td>
+    <td valign="top" ><p>Shuttle services</p></td>
+    <td valign="top" ><p>300</p></td>
+    </tr>
+    <tr><td></td>
+        <td valign="top" ><p>Zero Emission Vehicles (ZEV) policy on campus</p></td>
+        <td valign="top" ><p>200</p></td>
+        </tr>
+        
+        <tr><td></td>
+        <td valign="top" ><p>The total number of Zero Emission Vehicles (ZEV) divided by total campus population</p></td>
+        <td valign="top" ><p>200</p></td>
+        </tr>
+        
+        <tr><td></td>
+        <td valign="top" ><p>Ratio of ground parking area to total campus' area</p>
+        
+        </td>
+        <td valign="top" ><p>200</p></td>
+        </tr>
+        
+        <tr><td></td>
+        <td valign="top" ><p>Program to limit or decrease the parking area on campus for the last 3 years (from 2017 to 2019)</p></td>
+        <td valign="top" ><p>200</p></td>
+        </tr>
+        
+        <tr><td></td>
+        <td valign="top" ><p>Number of initiatives to decrease private vehicles on campus</p></td>
+        <td valign="top" ><p>200</p></td>
+        </tr>
+        
+        <tr><td></td>
+        <td valign="top" ><p>Pedestrian path on campus</p></td>
+        <td valign="top" ><p>300</p></td>
+        </tr>
+        
+        <tr><td></td>
+        <td valign="top" ><p><strong>Total </strong></p></td>
+        <td valign="top" ><p><strong>1800</strong></p></td>
+        </tr>
+        
+        <tr>
+            <td valign="top" ><p><strong>6</strong></p></td>
+            <td valign="top" ><p><strong>Education and Research (ED)</strong></p></td>
+            <td valign="top" ><p><strong>18%</strong></p></td>
+            </tr>
+            
+            <tr><td></td>
+            <td valign="top" ><p>The ratio of sustainability courses to total courses/subjects</p></td>
+            <td valign="top" ><p>300</p></td>
+            </tr>
+            
+            <tr><td></td>
+            <td valign="top" ><p>The ratio of sustainability research funding to total research funding</p></td>
+            <td valign="top" ><p>300</p></td>
+            </tr>
+            
+            <tr><td></td>
+            <td valign="top" ><p>Number of scholarly publications on sustainability</p></td>
+            <td valign="top" ><p>300</p></td>
+            </tr>
+            
+            <tr><td></td>
+            <td valign="top" ><p>Number of events related to sustainability</p></td>
+            <td valign="top" ><p>300</p></td>
+            </tr>
+            
+            <tr><td></td>
+            <td valign="top" ><p>Number of student organizations related to sustainability</p></td>
+            <td valign="top" ><p>300</p></td>
+            </tr>
+            
+            <tr><td></td>
+            <td valign="top" ><p>University-run sustainability website</p></td>
+            <td valign="top" ><p>200</p></td>
+            </tr>
+            
+            <tr><td></td>
+            <td valign="top" ><p>Sustainability report</p></td>
+            <td valign="top" ><p>100</p></td>
+            </tr>
+            
+            <tr>
+            <td valign="top" > </td>
+            <td valign="top" ><p><strong>Total </strong></p></td>
+            <td valign="top" ><p><strong>1800</strong></p></td>
+            </tr>
+                    
+    
+                                        
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+        </div> 
+    
+    </div>
+    
+    <article class="episode">
+      <!-- <div class="episode__number">03</div> -->
+      <div class="episode__content">
+        <div class="title">SCORING</div>
+        <div class="story">
+            Scoring for each item will be numeric so that our data can be processed statistically. Scores will be simple counts of things or responses on a scale of some sort
+        </div>
+      </div>
+    </article>
+
+    <article class="episode">
+        <!-- <div class="episode__number">03</div> -->
+        <div class="episode__content">
+          <div class="title">THE WEIGHTING CRITERIA</div>
+          <div class="story">
+           <p>Each of the criteria will be categorized in a general class of information and when the results are processed, the raw scores will be weighted to give a final calculation</p>
+          </div>
+        </div>
+      </article>
+    <article class="episode">
+        <!-- <div class="episode__number">03</div> -->
+        <div class="episode__content">
+          <div class="title">DATA SUBMISSION</div>
+          <div class="story">
+           <p>Data from the universities should be submitted through an online system between May – 31 October 2020. You could also email us some reports such as University Sustainability Tracking, Assessment and Rating System (STARS) report if you have one. We welcome any e-mail or hardcopy of your university sustainability evaluation and report as well as evidence on sustainability activities in your university.</p>
+          </div>
+        </div>
+      </article>
+    <article class="episode">
+        <!-- <div class="episode__number">03</div> -->
+        <div class="episode__content">
+          <div class="title">RESULTS</div>
+          <div class="story">
+           <p>The preliminary results of the metrics are expected to be submitted on 31 October 2020, and the final complete result will be released early December 2020.</p>
+          </div>
+        </div>
+      </article>
+    <article class="episode">
+        <!-- <div class="episode__number">03</div> -->
+        <div class="episode__content">
+          <div class="title">CONTACT DETAILS</div>
+          <div class="story">
+           <p>Ms. Sabrina Hikmah Ramadianti UI GreenMetric Secretariat Integrated Laboratory and Research Center (ILRC) Building, 4th Floor Kampus UI Depok, 16424, Indonesia E-mail: greenmetric@ui.ac.id Tel: (021) – 29120936 </p>
+           <p><a href="http://www.greenmetric.ui.ac.id/">http://www.greenmetric.ui.ac.id/</a></p>
+          </div>
+        </div>
+      </article>
+</div>
+<hr>
+<div class="container-fluid" style="background-color: #002147" >
+  <footer>
+    <div class="footer-top" style="padding:0 0 60px; font-family: rubik; font-weight: lighter;">
+        <br>
+        <div class="container-fluid" style="color: white;">
+            <div class="row">
+                <div class="col-6 col-lg-2 col-md-2 col-sm-2">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <ul>
+                 <!-- <li><a href="https://portals.au.edu.pk/admissions/">Admission Spring 2022</a></li>                                    
+                  <li><a href="https://numspak.edu.pk/news">MBBS Admission 2021</a></li>-->
+                     <li><a href="https://portals.au.edu.pk/jobs/">Job Opportunities</a></li>
+                            <li><a href="https://mail.au.edu.pk/">Staff Email</a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin/webreauth?continue=https%3A%2F%2Fwww.google.com%2Fa%2Fcpanel%2Fstudents.au.edu.pk%2FDashboard&amp;service=CPanel&amp;sacu=1&amp;hd=students.au.edu.pk&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin#identifier" id="A43">Student Email</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AUInfo/Advertisment.aspx" id="A44">Ads and Tender</a></li>
+                            <li><a href="https://au.edu.pk/Pages/Library/about_Library.aspx" id="A45">Library</a></li>
+    <li><a href="https://au.edu.pk/AU_Documents/Air_University_Social_Media_Policy_&_Guidliess.pdf" id="Ausmp">AU Social Media Policy &amp; Guidelines</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2 col-md-2 col-sm-2">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <ul>
+                            <li><a href="https://portals.au.edu.pk/students/" id="A46">Student Portal</a></li>
+                            <li><a href="https://au.edu.pk/Pages/About/au_lms.aspx" id="A51">AULMS</a></li>
+                            <li><a href="https://au.edu.pk/fmc/">Fazaia Medical College</a></li>
+                            <li><a href="https://au.edu.pk/pages/Kamra_Campus/#">Aerospace &amp; Aviation Campus Kamra</a></li>
+                            <li><a href="http://aumc.edu.pk/" id="A47">Air University Multan Campus</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-md-4 col-sm-4">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Consitutent Units</h5>
+                        <ul>
+                            <li><a href="https://fazaiamedical.edu.pk/" id="A48">Fazaia Medical College, Islamabad</a></li>
+                            <li><a href="https://frpmc.edu.pk/">Fazaia Ruth Pfau Medical College, Karachi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/cft_risalpur_college.aspx" id="A49">College of Flying Training, Risalpur</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/casmcontent.aspx" id="A50">College of Aviation Safety Management, Karachi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-4 col-md-4 col-sm-4">
+                    <div class="widget footer_widget">
+                        <h5 class="footer-title">Affiliated Institutes</h5>
+                        <ul>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A54">Bilquis College of Education for Women, Chaklala, Rawalpindi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A55">Fazaia College of Education for Women, Lahore</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A56">Aero Medical Institute, PAF Base, Masroor, Karachi</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A57">College of Education, Peshawar</a></li>
+                            <li><a href="https://au.edu.pk/Pages/AffilatedInstitutes/introduction.aspx" id="A58">College of Education for Women, Peshawar</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget">
+                        <h5 class="footer-title">AU UAN</h5>
+                        <p><kbd><span class="fa fa-phone" aria-hidden="true"></span> 051-111-247-864</kbd></p>
+                        <h5 class="footer-title">Address</h5>
+                        <p class="text-capitalize m-b20">Main Campus PAF Complex E-9 Islamabad.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="widget widget_gallery gallery-grid-4">
+                        <h5 class="footer-title">Location Map</h5>
+                        <iframe src="https://www.google.com/maps?q=Air University,Islamabad&amp;output=embed" frameborder="0" style="border: 0 ; margin-bottom: 10px;" width="100%" height="300" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+</footer>
+ </div>
+  
+ <div style="background-color: #002147; border-top: 3px double #fff">
+  <div class="container">
+      <br>
+      <center style="color: #fff">
+                      Copyright © Air University.
+          <script type="text/javascript">document.write(new Date().getFullYear())</script>
+
+                      <br>
+                      All right reserved. 
+                  </center>
+  </div>
+</div>
+<script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
